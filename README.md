@@ -30,8 +30,8 @@ Second step :
 
 Default User :
 
-Username => admin
-Password => 123456
+- Username => admin
+- Password => 123456
 
 For Register new user :
 - http://127.0.0.1:8000/register
