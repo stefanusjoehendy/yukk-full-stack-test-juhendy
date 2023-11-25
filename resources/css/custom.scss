@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#border-divider{
+    border-bottom: 1px solid #797979;
+    margin: 4rem;
+}
+
+.splide__pagination{
+    bottom: -1.5rem;
+}
+
+.splide__pagination__page.is-active {
+    background: #000;
+}
+
+// * custome Select2
+.select2-container .select2-selection--single {
+    height: 38px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 5px;
+}
+
+// * modal
+.section_header{
+    padding-bottom: 1rem;
+}
+
+.modal-header--sticky {
+    position: sticky;
+    top: 0;
+    background-color: inherit;
+    z-index: 20;
+}
+
+.modal-footer--sticky {
+    position: sticky;
+    bottom: 0;
+    background-color: inherit;
+    z-index: 20;
+}
+
+// * Scroll To Top
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    border-radius: 2rem;
+}
+
+// * dot for navigation
+.dot-nav{
+    background: #7a7a7a;
+    border: 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 8px;
+    margin: 3px;
+    opacity: .7;
+    padding: 0;
+    position: relative;
+    transition: transform .2s linear;
+    width: 8px;
+}
+
+// * vertical row diviner
+.vr{
+    border-left: 2px solid rgba(0,0,0,.1);
+    height: 4rem;
+}
