@@ -1,7 +1,7 @@
 # YUKK TEST FULLSTACK (JUHENDY)
 
 preparation :
-- Create manual database name "yukk"
+- Create manual database Mysql or MariaDB with name "yukk"
 
 For running this application : 
 
